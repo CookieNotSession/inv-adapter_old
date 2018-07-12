@@ -36,3 +36,4 @@ jobs:
     params:
       manifest: source-code/manifest/concourse-demo-web-manifest.yml
       path: target/inv-adapter-0.0.1-SNAPSHOT.jar
+# new line
