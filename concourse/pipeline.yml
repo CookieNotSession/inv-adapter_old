@@ -4,15 +4,15 @@ resources:
   type: git
   source:
     branch: simple
-    uri: https://github.com/liangboyi/concourse-demo-web
+    uri: https://github.com/CookieNotSession/inv-adapter
 - name: cloudfoundry
   type: cf
   source:
-    api: {{cf-api}}
-    username: {{cf-username}}
-    password: {{cf-password}}
-    organization: {{cf-organization}}
-    space: {{cf-space}}
+    api: {{https://api.system.mypcf.idv.tw}}
+    username: {{allengreen}}
+    password: {{qwerty}}
+    organization: {{fet4IBM}}
+    space: {{sit-sapce}}
     skip_cert_check: true
 
 jobs:
@@ -35,4 +35,4 @@ jobs:
   - put: cloudfoundry
     params:
       manifest: source-code/manifest/concourse-demo-web-manifest.yml
-      path: target-web/concourse-demo-web.jar
+      path: target/inv-adapter-0.0.1-SNAPSHOT.jar

@@ -1,5 +1,6 @@
 #!/bin/bash
 
-cd inv-adapter
-./mvn clean install
+cd source-code
+./mvn install
 
+cp target/inv-adapter-0.0.1-SNAPSHOT.jar
