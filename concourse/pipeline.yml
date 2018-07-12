@@ -8,11 +8,11 @@ resources:
 - name: cloudfoundry
   type: cf
   source:
-    api: {{https://api.system.mypcf.idv.tw}}
-    username: {{allengreen}}
-    password: {{qwerty}}
-    organization: {{fet4IBM}}
-    space: {{sit-sapce}}
+    api: {https://api.system.mypcf.idv.tw}
+    username: {allengreen}
+    password: {qwerty}
+    organization: {fet4IBM}
+    space: {sit-sapce}
     skip_cert_check: true
 
 jobs:
