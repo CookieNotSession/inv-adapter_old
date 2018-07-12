@@ -3,7 +3,6 @@ resources:
 - name: source-code
   type: git
   source:
-    branch: simple
     uri: https://github.com/CookieNotSession/inv-adapter
 - name: cloudfoundry
   type: cf
